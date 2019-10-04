@@ -1,12 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import LandingPage from 'pages/Landing'
 import NotFoundPage from 'pages/404'
